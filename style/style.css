@@ -63,23 +63,29 @@ h2 {
     color: #5a3b24;
 }
 
-.skills {
-    margin-top: 26px;
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
 }
 
-.badge {
-    background: #7a4e2d;
-    color: white;
-    padding: 8px 16px;
-    border-radius: 20px;
-    font-size: 20px;
-    font-weight: 500;
+.skill-card {
+    background: #fff6ee; 
+    color: #4a2e1f;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    border: 1px solid #e6c8b5;
+
     transition: 0.3s;
 }
 
-.badge:hover {
-    background: #5a3b24;
-    transform: scale(1.05);
+.skill-card:hover {
+    background: #4f3d2c; 
+    color: white;
+    transform: scale(1.1);
 }
 .project-card {
     background: #fff4ea;
@@ -90,6 +96,11 @@ h2 {
     border-radius: 8px;
 }
 
+.project-card:hover {
+    background: #4f3d2c; 
+    color: white;
+    transform: scale(1.1);
+}
 
 section {
     padding: 60px 20px;
