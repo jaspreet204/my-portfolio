@@ -2,34 +2,32 @@
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    background: #f5f7fb;
-    color: #1f2937;
+     background: #fdf8f3;
+    color: #4a2e1f;   
     text-align: center;
 }
 
 header {
-    background: #1e3a8a;
+    background: #7a4e2d;
     color: white;
     padding: 20px;
 }
 
 nav a {
-    color: white;
+     color: white;
     margin: 10px;
-    text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
 }
 
 nav a:hover {
-    color: #dbeafe;
-}
+    color: #f3d9c3;
+};
 
 .hero {
     padding: 80px 20px;
-    background: linear-gradient(135deg, #2563eb, #60a5fa);
-    color: white;
+    background: linear-gradient(135deg, #c9a27c, #f5e6d8);
+    color: #4a2e1f;
 }
 
 section {
@@ -37,11 +35,11 @@ section {
 }
 
 #contact {
-    background: #e8efff;
+    background: #f7efe7;
 }
 
 footer {
-    background: #1e3a8a;
+    background:#7a4e2d;
     color: white;
     padding: 20px;
 }
