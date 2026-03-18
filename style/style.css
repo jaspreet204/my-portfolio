@@ -1,0 +1,47 @@
+@import "reset.css";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f7fb;
+    color: #1f2937;
+    text-align: center;
+}
+
+header {
+    background: #1e3a8a;
+    color: white;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #dbeafe;
+}
+
+.hero {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #2563eb, #60a5fa);
+    color: white;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+#contact {
+    background: #e8efff;
+}
+
+footer {
+    background: #1e3a8a;
+    color: white;
+    padding: 20px;
+}
