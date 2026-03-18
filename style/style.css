@@ -30,6 +30,40 @@ nav a:hover {
     color: #4a2e1f;
 }
 
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #5a3b24;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.badge {
+    background: #7a4e2d;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.badge:hover {
+    background: #5a3b24;
+    transform: scale(1.05);
+}
+.project-card {
+    background: #fff4ea;
+    border: 1px solid #e3c8b3;
+    padding: 20px;
+    width: 320px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+
 section {
     padding: 60px 20px;
 }
