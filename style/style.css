@@ -52,10 +52,13 @@ nav a:hover {
 };
 
 .hero {
-    padding: 80px 20px;
     background: linear-gradient(135deg, #c9a27c, #f5e6d8);
     color: #4a2e1f;
+    padding: 40px 20px;  
+    margin: 0 auto;       
+    max-width: 700px;     
 }
+
 
 .hero {
     text-align: center;
@@ -66,6 +69,14 @@ h2 {
     font-size: 32px;
     margin-bottom: 20px;
     color: #5a3b24;
+}
+
+.hero h2 {
+    margin-bottom: 10px;
+}
+
+.hero p {
+    margin-bottom: 10px;
 }
 
 .skills-container {
@@ -108,7 +119,7 @@ h2 {
 }
 
 section {
-    padding: 60px 20px;
+    padding: 40px 20px;
 }
 
 #contact {
